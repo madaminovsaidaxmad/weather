@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 900px;
+    background-color: #ffffff;
+    box-shadow: #999 0px 5px 25px 0px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.left {
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left h2 {
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Hanken Grotesk';
+    padding: 8px;
+}
+
+input {
+    height: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Hanken Grotesk';
+    color: #707070;
+    border: 1.6px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.nav h3,
+.temp,
+.humidity {
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Hanken Grotesk';
+    color: #707070;
+    padding-top: 14px;
+}
+
+
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.nav i {
+    font-size: 45px;
+}
+
+.nav h4 {
+    font-size: 40px !important;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.nav h4 sup {
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+    right: 7px;
+}
+
+.nav sup span:first-child {
+    position: relative;
+    bottom: 5px;
+}
+
+
+.nav h1 {
+    text-align: center;
+    font-family: 'Hanken Grotesk';
+    font-weight: 800;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk';
+    gap: 30px;
+}
+
+.box .box1 h3 {
+    color: #707070;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box .box1 h5 {
+    margin: 8px auto;
+    text-align: center;
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.rasm {
+    width: 100%;
+}
+
+.rasm img {
+    height: 200px;
+    width: 100%;
+}
+
+.right {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box3 {
+    background-color: #5696f7;
+    padding: 20px;
+    width: 80px;
+    border-radius: 6px;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+.box3 .box2, #cloud {
+    margin: 0;
+    text-align: center;
+    color: black !important;
+}
+
+.box3 .first {
+    font-weight: 800;
+}
+
+.box3 h4, h5 {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.box3 i {
+    padding: 10px;
+}
+
+.box3 h5 {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.enden {
+    background-color: transparent;
+}
+
+.main #cloud {
+    color: white !important;
+}
+
